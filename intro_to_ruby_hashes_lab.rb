@@ -21,7 +21,12 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   {:railroads => {
-      :rent_in_dollars => 1000 ,
+      :rent_in_dollars => {
+        :one => 1,
+        :two => 2,
+        :three => 3,
+        :four => 4
+      } ,
       :pieces => 4
       }
   }
